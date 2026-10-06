@@ -1,0 +1,16 @@
+{
+  "name": "redmenta-demo-automation",
+  "version": "1.0.0",
+  "description": "Lightweight Playwright e2e demo tests for saucedemo.com",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "SLOWMO=600 playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
